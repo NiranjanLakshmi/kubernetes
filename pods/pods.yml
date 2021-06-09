@@ -10,3 +10,7 @@ spec:
       image: niranjan/nodeapp:v1
       ports:
         - containerPort: 8080
+    - name: nodeapp1
+      image: lakshmi/nodeapp1:v1
+      ports:
+        - containerPort: 9090
