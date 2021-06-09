@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: lakshmi
   labels:
-    app: nodeapp1
+    app: nodeapp
 spec:
   containers:
     - name: nodeapp
