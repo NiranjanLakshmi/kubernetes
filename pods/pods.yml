@@ -7,10 +7,10 @@ metadata:
 spec:
   containers:
     - name: nodeapp2
-      image: niranjan/nodeapp:v1
+      image: kammana/nodeapp:v1
       ports:
         - containerPort: 8080
     - name: nodeapp1
-      image: lakshmi/nodeapp:v1
+      image: kammana/nodeapp:v1
       ports:
         - containerPort: 9090
