@@ -6,11 +6,11 @@ metadata:
     app: nodeapp1
 spec:
   containers:
-    - name: nodeapp2
+    - name: nodeapp
       image: kammana/nodeapp:v1
       ports:
         - containerPort: 8080
-    - name: nodeapp1
+    - name: nodeapp
       image: kammana/nodeapp:v1
       ports:
         - containerPort: 9090
