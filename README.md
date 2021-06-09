@@ -110,6 +110,8 @@ We can change numner of nodes and number of masters using following commands
 
 # Finding a Service’s IP
 We can find a Service IP using kubectl as well. In this case we will list all services in all namespaces:
+
 '''
    kubectl get service --all-namespaces
+   
 '''   
