@@ -5,3 +5,11 @@
 - Any Pod create in future is added to service dynamicaly if pod label is matching with Service lable selector.  
 
 ![service](https://github.com/javahometech/kubernetes/blob/master/images/service.png)
+
+
+
+# Delete Service objects
+
+```
+  https://kubernetes.io/docs/tasks/run-application/delete-stateful-set/
+```  
