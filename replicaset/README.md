@@ -1,3 +1,10 @@
+Create RepicaSet by using below command
+
+```
+  kubectl create -f rs.yml
+```  
+
+
 kubectl also supports cascading deletion.
 
 To delete dependents in the foreground using kubectl, set --cascade=foreground. To orphan dependents, set --cascade=orphan.
