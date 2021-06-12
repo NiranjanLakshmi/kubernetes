@@ -16,3 +16,10 @@ Here's an example that orphans the dependents of a ReplicaSet:
 ```
   kubectl delete replicaset my-repset --cascade=orphan
 ```
+
+
+```
+  kubectl delete rs nodeapp
+```  
+  
+  
